@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Decentralized Storage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #20232a 0%, #15181f 100%);
+      color: #61dafb;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #61dafb;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .login-container {
+      text-align: center;
+    }
+
+    #getStartedButton {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #61dafb;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    #userAddress {
+      margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      #loginButton {
+        padding: 12px 24px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Decentralized Storage with IPFS</h1>
+    <p>Ensuring Security and Efficiency</p>
+  </header>
+
+  <section>
+
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Welcome to our revolutionary blockchain-based decentralized storage platform! We leverage the power of IPFS (InterPlanetary File System) to provide you with a secure, efficient, and decentralized solution for storing and retrieving your data.
+    </p>
+
+    <h2>Why Choose Us?</h2>
+    <p>
+      Our platform embraces the decentralized nature of blockchain technology, ensuring that your data is distributed across a network of nodes rather than relying on a single centralized server. This not only enhances security but also reduces the risk of data loss and downtime.
+    </p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Blockchain Security: Benefit from the inherent security features of blockchain technology to protect your data from unauthorized access and tampering.</li>
+      <li>Decentralized Storage: Enjoy the advantages of decentralized storage, eliminating reliance on a single point of failure and enhancing reliability.</li>
+      <li>IPFS Integration: Utilize the power of IPFS to create a distributed file system that ensures fast and efficient data retrieval.</li>
+      <li>Data Encryption: Our platform employs advanced encryption techniques to safeguard your sensitive information and maintain privacy.</li>
+      <li>Efficient Compression: With our compression algorithms, large datasets are optimized for storage efficiency, saving both time and resources.</li>
+    </ul>
+
+    <div class="login-container">
+        <h2>Get Started</h2>
+        <p>
+          Experience the future of decentralized storage. Click the "Get Started" button below to begin your journey with decentralized storage powered by blockchain and IPFS.
+        </p>
+        <p>
+            Ready to revolutionize your data storage experience? Click the button below to begin your journey with decentralized storage powered by blockchain and IPFS.
+          </p>
+  
+        <button id="getStartedButton">Get Started</button>
+      
+
+      <p id="userAddress"></p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const getStartedButton = document.getElementById('getStartedButton');
+
+      getStartedButton.addEventListener('click', function () {
+        // Redirect to the dashboard page
+        window.location.href = 'dashboard.html';
+      });
+    });
+  </script>
+
+</body>
+</html>
